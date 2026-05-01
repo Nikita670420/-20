@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "mysite"
 version = "0.1.0"
-description = ""
+description = "Django project for practical work 20"
 authors = ["you <you@example.com>"]
 license = "MIT"
 
