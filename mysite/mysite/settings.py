@@ -27,8 +27,9 @@ SECRET_KEY = 'django-insecure-hvxn%qq=gyw^4*o2lo1#bw0=wh#ux9s8h!=@c608arf_gz3+^7
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "0.0.0.0",
+	"127.0.0.1",
+	"0.0.0.0",
+	"83.217.202.80"
 ]
 
 INTERNAL_IPS = [
@@ -157,7 +158,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-
+STATIC_ROOT = BASE_DIR / "static"
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'uploads'
 # DEFAULT_FILE_STORAGE =
